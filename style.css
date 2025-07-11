@@ -1,0 +1,306 @@
+header{
+background-image:url('imgs/Hero-bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img{
+    margin: 50px 150px;
+
+}
+
+ .sign{
+    margin-right: 150px;
+    margin-top: 0px;
+    background-color: #4E47FF;
+    padding:10px 19px ;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.sign .btn{
+    color: #fff;
+    text-decoration: none;
+
+}
+/* hero area code start */
+.hero-content{
+    text-align: center;
+    margin:90px ;
+
+}
+
+.btn{
+      background-color: #4E47FF;
+      padding:10px 19px ;
+          border-radius: 7px;
+color: #ffffff;
+text-decoration: none;
+}
+
+/* action-webflow section of Main */
+
+.action-sec{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    align-items: center;
+}
+.action-sec p{
+  color: #757575;
+
+}
+
+/* <!-- User rate section --> */
+.user-section{
+width: 100%;
+    text-align: center;
+
+
+}
+
+.parent{
+    background-color: hwb(242 87% 2%);
+margin: 50px 100px;
+border-radius: 6px;
+
+}
+
+.user-number{
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 50px;
+}
+
+.user-number .percent h1{
+color: #4E47FF;
+font-size: 60px;
+font-weight: bold;
+color: #252432;
+}
+
+.user-number .percent p{
+  color: #757575;
+
+}
+
+
+.user-text{
+    padding: 30px 0px;
+}
+
+.percent h1{
+    margin-top:-10px;
+}
+
+.percent p{
+    margin-top: -35px;
+}
+
+
+/* testimonial part start */
+
+.testimonial-section {
+  padding: 60px 20px;
+  /* text-align: center; */
+}
+
+.testimonial-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+
+.stars {
+  color: #f5b50a;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer .info span {
+  font-weight: 500;
+  display: block;
+  font-size: 14px;
+}
+
+.reviewer .info small {
+  font-size: 12px;
+  color: #888;
+}
+
+
+
+/* form section start */
+
+.form-section{
+}
+
+.parent-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 100px;
+
+}
+
+.form-text{
+    color:#000000 ;
+    font-weight: bold;
+    font-size: 50px;
+
+
+}
+
+/* form style */
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #6c63ff;
+}
+
+button {
+  width: 100%;
+  background-color: #5a4bff;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4737e3;
+}
+
+
+/* footer section start */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9ff;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #1a1a2e;
+  color: white;
+  text-align: center;
+}
+
+.img-text img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.img-text p {
+  max-width: 500px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.services p {
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.services p:hover {
+  color: #6c63ff;
+}
